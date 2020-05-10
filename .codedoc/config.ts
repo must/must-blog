@@ -1,25 +1,49 @@
 
-import { configuration } from '@codedoc/core';
+import { configuration, 
+  DefaultMarkdownCustomComponents,
+} from '@codedoc/core';
 
 import { theme } from './theme';
+import { Hero } from './components/hero';
+import { Author$ } from './components/author';
+import { Big } from './components/big';
 
 
 export const config = /*#__PURE__*/configuration({
-  theme,                                  // --> add the theme. modify `./theme.ts` for chaning the theme.
+  theme,
+  src: {
+    base: 'posts'
+  },
   dest: {
-    namespace: '/techblog',               // --> your github pages namespace. remove if you are using a custom domain.
+    namespace: '/techblog',
     html: 'dist',
-    assets: 'dist',
+    assets: process.env.GITHUB_BUILD === 'true' ? 'dist' : '.',
+    bundle: process.env.GITHUB_BUILD === 'true' ? 'bundle' : 'dist/bundle',
+    styles: process.env.GITHUB_BUILD === 'true' ? 'styles' : 'dist/styles',
   },
   page: {
     title: {
-      base: 'Eugene\'s Techblog'          // --> the base title of your doc pages
+      base: 'Eugene\'s TechBlog'
+    },
+    favicon: '/favicon.ico',
+    fonts: {
+      text: {
+        url: 'https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap',
+        name: 'Oxanium',
+        fallback: 'cursive',
+      }
     }
+  },
+  markdown: {
+    customComponents: {
+      ...DefaultMarkdownCustomComponents,
+      Hero, Author: Author$, Big
+    },
   },
   misc: {
     github: {
-      user: 'loreanvictor',               // --> your github username (where your repo is hosted)
-      repo: 'techblog',                   // --> your github repo name
+      repo: 'techblog',
+      user: 'loreanvictor'
     }
-  },
+  }
 });
