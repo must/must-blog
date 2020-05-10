@@ -58,6 +58,6 @@ renderer.render(
 
 ---
 
-_P.S. Shout out to [Anas Alshanti](https://unsplash.com/@otenteko) for their nice hero image from [Unsplash](https://unsplash.com)._
+_Hero Image by [Anas Alshanti](https://unsplash.com/@otenteko) from [Unsplash](https://unsplash.com)._
 
 > :ToCPrevNext
