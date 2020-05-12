@@ -10,9 +10,9 @@
 > :Hero src=https://images.unsplash.com/photo-1544133065-4c9fe678b4dd?w=1200&h=600&fit=crop&q=80, \
 > target=mobile, mode=light, leak=96px
 
-> :PageHead
+> :PageHead color=white
 >
-> Eugene's Tech Blog
+> Eugene's Coding Blog
 
 > :Author src=github
 
@@ -26,7 +26,7 @@ capabilities of JAMStack blogs to their limits.
 
 ## Yet Another Frontend Framework
 
-So a while back, when working on [CONNECT-platform](https://connect-platform.com), The web-based
+So a while back, I was working on [CONNECT-platform](https://connect-platform.com). The web-based
 editor for connect platform is built using Angular, and I had a lot of headache optimizing it
 to a marginally acceptable level of performance. The issue was Angular's change detection,
 as it got pretty confused due to the rather complicated flow of data in the editor.

@@ -4,7 +4,7 @@
 > :Hero src=https://images.unsplash.com/photo-1518016491499-75f85ea4c86d?w=1200&h=600&fit=crop, \
 > target=mobile, leak=96px
 
-> :PageHead lead=Yet Another Frontend Framework, shadow=0 0 8px #000000ee
+> :PageHead lead=Yet Another Frontend Framework, shadow=0 0 8px #000000ee, color=white
 >
 > Part 1: Why?
 
@@ -29,7 +29,7 @@ import { render } from 'react-dom';
 function Timer() {
 /*!*/  const [count, setCount] = useState(0);                            // --> create a state
 /*!*/  useEffect(() => {                                                 // --> after each render
-/*!*/    const interval = setTimeout(() => setTime(count + 1), 1000);    // --> set a timeout to update the state
+/*!*/    const interval = setTimeout(() => setCount(count + 1), 1000);   // --> set a timeout to update the state
 /*!*/    return () => clearTimeout(interval);                            // --> and clean the timeout as well
 /*!*/  });
 /*!*/
@@ -305,3 +305,11 @@ the story of how it was designed and created!
 _Hero Image by [Wendy Scofield](https://unsplash.com/@gypsycompassrose) from [Unsplash](https://unsplash.com)._
 
 > :ToCPrevNext prev=false
+
+> :MetaOverride target=description
+>
+> Short-comings of React and other frontend frameworks, i.e. why CONNECTIVE HTML was created.
+
+> :MetaOverride target=keywords, behavior=extend
+>
+> React, Angular, Frontend, reactive, RxJS, performance, overhead, React Hooks, web design, javascript, JSX

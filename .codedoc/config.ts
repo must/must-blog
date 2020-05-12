@@ -24,7 +24,7 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'Eugene\'s TechBlog'
+      base: 'Eugene\'s Coding Blog'
     },
     favicon: '/favicon.ico',
     fonts: {
@@ -33,6 +33,22 @@ export const config = /*#__PURE__*/configuration({
         name: 'Oxanium',
         fallback: 'cursive',
       }
+    },
+    meta: {
+      subject: 'The Coding Blog of Eugene Ghanizadeh Khoub',
+      description: 'The Coding Blog of Eugene Ghanizadeh Khoub',
+      keywords: [
+        'programming',
+        'blog', 'journal',
+        'coding',
+        'eugene',
+        'Eugene Ghanizadeh Khoub',
+        'open-source',
+        'open source',
+        'software',
+        'development',
+        'developer',
+      ]
     }
   },
   markdown: {
