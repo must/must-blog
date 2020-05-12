@@ -1,10 +1,18 @@
 > :Hero src=https://images.unsplash.com/photo-1480506132288-68f7705954bd?w=1993&h=600&fit=crop&q=80, \
-> target=desktop
+> target=desktop, mode=dark, leak=188px
 
 > :Hero src=https://images.unsplash.com/photo-1480506132288-68f7705954bd?w=1200&h=600&fit=crop&q=80, \
-> target=mobile
+> target=mobile, mode=dark, leak=96px
 
-# Eugene's Tech Blog
+> :Hero src=https://images.unsplash.com/photo-1544133065-4c9fe678b4dd?w=1993&h=600&fit=crop&q=80, \
+> target=desktop, mode=light, leak=188px
+
+> :Hero src=https://images.unsplash.com/photo-1544133065-4c9fe678b4dd?w=1200&h=600&fit=crop&q=80, \
+> target=mobile, mode=light, leak=96px
+
+> :PageHead
+>
+> Eugene's Tech Blog
 
 > :Author src=github
 
@@ -14,10 +22,30 @@ So this is my personal blog where I talk about tech stuff I encounter. Right now
 [`coding.blog`](https://coding.blog) and [**CODEDOC**](https://codedoc.cc), and trying to push
 capabilities of JAMStack blogs to their limits.
 
-I'll write stuff in more detail, but since you are here, lets have a fun code snippet on getting
-pokemon info using [**RxJS**](https://learnrxjs.io), 
-[**CONNECTIVE HTML**](https://github.com/CONNECT-platform/connective-html) and 
-[**RxMetics**](https://loreanvictor.github.io/rxmetics):
+<br><br><br>
+
+## Yet Another Frontend Framework
+
+So a while back, when working on [CONNECT-platform](https://connect-platform.com), The web-based
+editor for connect platform is built using Angular, and I had a lot of headache optimizing it
+to a marginally acceptable level of performance. The issue was Angular's change detection,
+as it got pretty confused due to the rather complicated flow of data in the editor.
+
+I ended up doing more work for pushing Angular out of my way, along with the fact that explicitly
+controlling the change propagation flow simply meant a lot of the benefits of Angular were already
+gone. As a result, I decided to create _Yet Another Frontend Framework_, built around explicit
+description of flow of change.
+
+> :Buttons
+> > :Button label=Read The Story, url=/yaff/part1
+
+<br><br><br>
+
+## For the Fun of It
+
+Just for the fun of it, have this snippet of a simply frontend that gets pokemon information
+from their name, using [**CONNECTIVE HTML**](https://github.com/CONNECT-platform/connective-html)
+and [**RxJS**](https://learnrxjs.io):
 
 ```tsx
 /** @jsx renderer.create */
@@ -56,8 +84,14 @@ renderer.render(
 >
 > > :CopyButton
 
----
+<br><br>
 
-_Hero Image by [Anas Alshanti](https://unsplash.com/@otenteko) from [Unsplash](https://unsplash.com)._
+> :DarkLight
+> > :InDark
+> >
+> > _Hero Image by [Anas Alshanti](https://unsplash.com/@otenteko) from [Unsplash](https://unsplash.com)._
+>
+> > :InLight
+> >
+> > _Hero Image by [Monika Pot](https://unsplash.com/@ramoni) from [Unsplash](https://unsplash.com)._
 
-> :ToCPrevNext

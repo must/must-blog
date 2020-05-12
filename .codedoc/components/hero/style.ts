@@ -30,7 +30,7 @@ export const HeroStyle = themedStyle<CodedocTheme>(theme => ({
       }
     },
 
-    '@media screen and (min-width: 1024px)': {
+    '@media screen and (min-width: 1025px)': {
       '&[data-target="mobile"]': {
         display: 'none'
       }

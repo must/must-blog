@@ -9,6 +9,7 @@ export interface HeroOptions {
   src: string;
   mode?: 'light' | 'dark';
   target?: 'mobile' | 'desktop';
+  leak?: number;
 }
 
 
@@ -22,6 +23,7 @@ export function Hero(
   const opts: {[key: string]: string} = { class: classes.hero };
   if (options.mode) opts['data-mode'] = options.mode;
   if (options.target) opts['data-target'] = options.target;
+  if (options.leak) opts['style'] = `margin-bottom: -${options.leak}`;
   return <div {...opts}>
     <img src={options.src} class={classes.image}/>
     <span class={classes.caption}>{content}</span>

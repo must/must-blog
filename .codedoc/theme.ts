@@ -5,7 +5,7 @@ export const theme = /*#__PURE__*/createTheme({
   light: {
     primary: '#202040',
     border: '#75757548',
-    background: '#ffdcb4',
+    background: '#f1e7dc',
   },
   dark: {
     primary: '#ffdcb4',
@@ -14,15 +14,21 @@ export const theme = /*#__PURE__*/createTheme({
   },
   quote: {
     light: {
-      background: '#f6d198'
+      background: '#f3e1c6',
+      border: '#f6d198',
+    },
+    dark: {
+      background: '#110133',
+      border: '#202040',
     }
   },
   toc: {
     dark: {
-      background: '#363062',
+      background: '#3630629e',
     },
     light: {
-      background: '#f6d198',
+      background: '#e3d9cd9e',
+      border: 'none',
     }
   },
   code: {

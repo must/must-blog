@@ -18,7 +18,11 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
             (config.misc?.github ? 
               <script>{`window.githubConfig = ${JSON.stringify(config.misc.github)}`}</script> : 
               <fragment/>)]}
-          stylesheets={[...config.page.stylesheets || [], <style>{`.container{padding-top: 0 !important}`}</style>]}
+          stylesheets={
+            [...config.page.stylesheets || [], 
+            <style>{`.container{padding-top: 0 !important}`}</style>,
+            <style>{`#-codedoc-toc { backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px) }`}</style>
+          ]}
 
           header={<Header {...config}/>}
           footer={<Footer {...config}/>}
