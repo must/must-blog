@@ -61,6 +61,12 @@ export const config = /*#__PURE__*/configuration({
     github: {
       repo: 'techblog',
       user: 'loreanvictor'
+    },
+    coding_blog: {
+      assets: [
+        'favicon.ico',
+        'img'
+      ]
     }
   }
 });
