@@ -24,7 +24,7 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'Eugene\'s Coding Blog'
+      base: 'Mustapha\'s Coding Blog'
     },
     favicon: '/favicon.ico',
     fonts: {
@@ -35,14 +35,14 @@ export const config = /*#__PURE__*/configuration({
       }
     },
     meta: {
-      subject: 'The Coding Blog of Eugene Ghanizadeh Khoub',
-      description: 'The Coding Blog of Eugene Ghanizadeh Khoub',
+      subject: 'The Coding Blog of Mustapha Ben Chaaben',
+      description: 'The Coding Blog of Mustapha Ben Chaaben. Let\'s talk tech',
       keywords: [
         'programming',
         'blog', 'journal',
         'coding',
-        'eugene',
-        'Eugene Ghanizadeh Khoub',
+        'must',
+        'Mustapha Ben Chaaben',
         'open-source',
         'open source',
         'software',
@@ -59,8 +59,8 @@ export const config = /*#__PURE__*/configuration({
   },
   misc: {
     github: {
-      repo: 'techblog',
-      user: 'loreanvictor'
+      repo: 'blog',
+      user: 'must'
     },
     coding_blog: {
       assets: [
