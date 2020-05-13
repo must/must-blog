@@ -68,6 +68,11 @@
   ],
   "components": [
     {
+      "name": "Author",
+      "filename": "/home/runner/work/blog/blog/.codedoc/components/author/index.tsx",
+      "hash": "YAJa/HXqn7v9bVKkWd7gVg=="
+    },
+    {
       "name": "CollapseControl",
       "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js",
       "hash": "BW5/JozIUuMeRr9sjNL7zw=="
@@ -86,11 +91,6 @@
       "name": "ConfigTransport",
       "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
       "hash": "Rs0VnrLCFSwfOm1o3R6OHg=="
-    },
-    {
-      "name": "Author",
-      "filename": "/home/runner/work/blog/blog/.codedoc/components/author/index.tsx",
-      "hash": "YAJa/HXqn7v9bVKkWd7gVg=="
     },
     {
       "name": "ToCPrevNext",
