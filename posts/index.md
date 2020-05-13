@@ -1,13 +1,13 @@
-> :Hero src=https://images.unsplash.com/photo-1480506132288-68f7705954bd?w=1993&h=600&fit=crop&q=80, \
+> :Hero src=https://images.unsplash.com/photo-1525373698358-041e3a460346?w=1993&h=600&fit=crop&q=80, \
 > target=desktop, mode=dark, leak=188px
 
-> :Hero src=https://images.unsplash.com/photo-1480506132288-68f7705954bd?w=1200&h=600&fit=crop&q=80, \
+> :Hero src=https://images.unsplash.com/photo-1525373698358-041e3a460346?w=1200&h=600&fit=crop&q=80, \
 > target=mobile, mode=dark, leak=96px
 
-> :Hero src=https://images.unsplash.com/photo-1544133065-4c9fe678b4dd?w=1993&h=600&fit=crop&q=80, \
+> :Hero src=https://images.unsplash.com/photo-1521731299294-89e9d36a0d4a?w=1993&h=600&fit=crop&q=80, \
 > target=desktop, mode=light, leak=188px
 
-> :Hero src=https://images.unsplash.com/photo-1544133065-4c9fe678b4dd?w=1200&h=600&fit=crop&q=80, \
+> :Hero src=https://images.unsplash.com/photo-1521731299294-89e9d36a0d4a?w=1200&h=600&fit=crop&q=80, \
 > target=mobile, mode=light, leak=96px
 
 > :PageHead color=white
