@@ -65,7 +65,8 @@ export const config = /*#__PURE__*/configuration({
     coding_blog: {
       assets: [
         'favicon.ico',
-        'img'
+        'img',
+        'random'
       ]
     }
   }
