@@ -18,7 +18,7 @@
 
 <br>
 
-So this is my personal blog where I talk about tech stuff I encounter. Right now I am working on
+Soooooo this is my personal blog where I talk about tech stuff I encounter. Right now I am working on
 [`coding.blog`](https://coding.blog) and [**CONNECT platform**](https://connect-platform.com).
 
 <br><br><br>
